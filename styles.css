@@ -32,3 +32,20 @@ a { color: #c64119; border-bottom: 1px solid #c64119; text-decoration: none; }
 
 a:hover { color: #993213; border-bottom: 1px solid #993213; }
 
+body, html {
+  height: 100%;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("bb.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
