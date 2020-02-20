@@ -63,7 +63,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 40px 20px;
   text-decoration: none;
 }
 
@@ -73,6 +73,10 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #4CAF50;
+}
+
+blockquote {
+  text-align: center;
 }
 
 h4 { border-bottom: #555; }
