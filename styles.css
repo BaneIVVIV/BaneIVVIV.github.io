@@ -31,6 +31,7 @@
   float: left;
   padding: 10px;
   height: 200px;
+  border-right: double #555;
   border-top: double #555;
   border-bottom: double #555; /* Should be removed. Only for demonstration */
 }
