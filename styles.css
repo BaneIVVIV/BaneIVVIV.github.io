@@ -34,6 +34,20 @@
   clear: both;
 }
 
+.col-sm-4 {
+  float: left;
+  padding: 10px;
+  height: 650px;
+  border-bottom: double #555; /* Should be removed. Only for demonstration */
+}
+
+.col-sm-8 {
+  float: left;
+  padding: 10px;
+  height: 650px;
+  border-bottom: double #555;
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
