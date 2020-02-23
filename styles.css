@@ -30,14 +30,14 @@
 .col-sm-4 {
   float: left;
   padding: 10px;
-  height: 650px;
+  height: 300px;
   border-bottom: double #555; /* Should be removed. Only for demonstration */
 }
 
 .col-sm-8 {
   float: left;
   padding: 10px;
-  height: 650px;
+  height: 300px;
   border-bottom: double #555;
 }
 
@@ -58,6 +58,15 @@
   }
   .column3 {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-sm-4{
+    width: 30%;
+  }
+  .col-sm-8{
+    width: 70%;
   }
 }
 
